@@ -7,51 +7,116 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>
-        hello bro how life is going
-    </h1>
+    <h1>learning forms</h1>
+    <h1>Student regestration</h1>
+    <form action="">
+      <fieldset>
+        <legend>Student Information</legend>
 
-    <table border="5">
-        <caption>food items</caption>
-        <colgroup>
-        <col style="background-color: red;">
-        <col style="background-color: blue;">
-        <col style="background-color: orange;">
-    </colgroup>
-        <thead>
-            <tr>
-                <th>product</th>
-                <th>quantity</th>
-                <th>Price</th>
-            </tr>
+        <label for="name">Name</label>
+        <input id="name" type="text" placeholder="Enter your name" />
+        <br />
+        <br />
+        <label for="email">Email</label>
+        <input id="email" type="text" placeholder="Enter your Email" />
+        <br />
+        <br />
+        <label for="Phno">phno</label>
+        <input id="Phno" type="text" placeholder="Enter your Phone num" />
+      </fieldset>
+      <br />
+      <br />
+      <fieldset>
+        <legend>Address Details</legend>
 
-            <tbody>
-                <tr>
-                    <td>maggie</td>
-                    <td>6</td>
-                    <td>50</td>
-                </tr>
-                <tr>
-                    <td>lays</td>
-                    <td>2</td>
-                    <td>90</td>
-                </tr>
-                <tr>
-                    <td>tede</td>
-                    <td>1</td>
-                    <td>70</td>
-                </tr>
-            </tbody>
-        </thead>
-        <tfoot>
-            <tr>
-                <th colspan="2">total Price</th>
-                <td>130</td>
-            </tr>
-        </tfoot>
+        <label for="address">Address</label>
+        <textarea name="" id="address" rows="3"></textarea>
+        <br />
+        <br />
 
-    </table>
+        <label for="city">City</label>
+        <select name="" id="city">
+          <option value="">bhopal</option>
+          <option value="">jeypore</option>
+          <option value="">koraput</option>
+          <option value="">Bihar</option>
+          <option value="">mumbai</option>
+        </select>
+        <br />
+        <br />
 
+        <label for="Country">Country</label>
+        <select name="" id="Country">
+          <option value="">India</option>
+          <option value="">Usa</option>
+          <option value="">England</option>
+          <option value="">Africa</option>
+          <option value="">China</option>
+        </select>
+      </fieldset>
+      <br /><br />
 
+      <label for="course">Select Courses</label>
+      <select name="" id="course">
+        <optgroup label="Frontend">
+          <option value="">Html</option>
+          <option value="">Css</option>
+          <option value="">Js</option>
+        </optgroup>
+
+        <optgroup label="Backend">
+          <option value="">Node</option>
+          <option value="">Express</option>
+          <option value="">MongoDB</option>
+        </optgroup>
+      </select>
+
+      <br />
+      <br />
+
+      <button>Submit form</button>
+    </form>
+    <!-- <form action="">
+      <fieldset>
+        <legend>Personal details</legend>
+
+        <label for="Name">Name</label>
+        <input id="Name" placeholder="Enter your name" />
+        <br>
+        <br>
+        <label for="Email">Name</label>
+        <input id="Email" placeholder="Enter your Email" />
+        <br>
+        <br>
+        <label for="Phno.">Name</label>
+        <input id="phno." placeholder="Enter your phno" />
+      </fieldset>
+      <br />
+      <br />
+      <label for="Name">Name</label>
+      <input id="Name" placeholder="Enter your name" />
+      <label for="course">select course</label>
+      <select name="" id="course">
+        <optgroup label="Frontend">
+          <option value="">html</option>
+          <option value="">css</option>
+          <option value="">js</option>
+        </optgroup>
+
+        <optgroup label="Backend">
+          <option value="">node</option>
+          <option value="">exple</option>
+          <option value="">jgjgs</option>
+        </optgroup>
+      </select>
+      <br />
+      <br />
+
+      <label for="reviews">Reviews</label>
+      <textarea name="" id="reviews" rows="4" cols=""></textarea>
+      <br />
+      <br />
+      <button>Submit</button>
+    </form> -->
   </body>
 </html>
