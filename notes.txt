@@ -1,0 +1,40 @@
+files - collection of single type of data 
+folder - collection of files
+
+-Html (for structure) - Hyper Text Markup Language
+-css (for styling)
+-js (for functionality)
+
+WEB
+1.0 : Text
+2,0 : Text , Images, Audio, Video
+3.0 : Ar, vr, Blockchain
+
+HTML
+
+- The head tag contains all the information for the browser.
+- the body tag will contain the content of our website.
+- Doctype html tag tells us about the html file we are using.
+
+Text
+
+-Headings (h1 - h6)
+-paragraph (p)
+bold( b , same as the strong tag ), italic(i, [em] tag same as italic )
+-(sup)tag is user for power
+-(sub)tage power tole jibo like chemistry reaction 
+-br tag is used for next line
+-hr tag is used for horizontal line 
+
+List
+
+-ordered list - (ol <li>)
+-unordered list - (ul <li>)
+
+Anchor tag
+-This is used for providing link (a)
+- image tag (img)
+- video tag (video) - autoplay, loop, muted, controls (alwys use these )
+- Audio tad (audio) - To see always use controls
+
+Table
