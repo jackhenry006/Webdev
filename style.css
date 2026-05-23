@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* h1{
+    color: aqua;
+    background-color: rgb(20, 20, 19);
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    text-transform: capitalize;
+
+} */
+
+/* div{
+    color: blue;
+    background-color: aquamarine;
+} */
+
+#box {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+/* #inner {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+} */
